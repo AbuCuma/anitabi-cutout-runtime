@@ -1,7 +1,7 @@
 # anitabi-cutout-runtime
 
-[动画巡礼 Android 版](https://github.com/AbuCuma/anitabi-android-app)「AI 抠图增强」实验功能的
-运行时分发点。这个仓库**只放二进制**,没有源码。
+[巡礼地图 / Junrei Map](https://github.com/AbuCuma/junrei-map)(anitabi.cn 的第三方 Android 客户端)「AI 抠图增强」
+实验功能的运行时分发点。这个仓库**只放二进制**,没有源码。
 
 App 里这个功能**默认关闭**,需要用户在「关于」页手动打开;打开后进入对比拍摄时才会在
 **非计费网络**下载下面这些文件。不开启的话完全不会访问这里。
@@ -27,7 +27,7 @@ QNN/QAIRT 运行库,而 Qualcomm AI Stack License 授予的是「以 object code
 缺件时 App 的 `CutoutManifest.requiredArtifacts` 返回 null,`CutoutEngine` 自动降到 CPU 档 ——
 这是既有的降级路径,不需要特殊处理。
 
-细节见 App 仓库的 [docs/CUTOUT_RUNTIME.md](https://github.com/AbuCuma/anitabi-android-app/blob/main/docs/CUTOUT_RUNTIME.md)。
+细节见 App 仓库的 [docs/cutout-runtime.md](https://github.com/AbuCuma/junrei-map/blob/main/docs/cutout-runtime.md)。
 
 ## 版本一致性
 
